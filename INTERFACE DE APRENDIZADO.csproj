@@ -66,6 +66,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Arduino\elevador_com_arduino1TESTEbackup.ino" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -78,6 +79,19 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Arduino\botao.cpp" />
+    <Content Include="Arduino\botao.h" />
+    <Content Include="Arduino\Elevador.cpp" />
+    <Content Include="Arduino\Elevador.h" />
+    <Content Include="Arduino\motor.cpp" />
+    <Content Include="Arduino\motor.h" />
+    <Content Include="Arduino\sensor.cpp" />
+    <Content Include="Arduino\sensor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
