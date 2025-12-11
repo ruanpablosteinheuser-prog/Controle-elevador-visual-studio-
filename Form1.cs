@@ -14,7 +14,7 @@ namespace INTERFACE_DE_APRENDIZADO
     
     public partial class Form1 : Form
     {
-        string[] portas;
+        string[] portas; 
         SerialPort PortaSerial = new SerialPort(); //cria o objeto portaserial
         public Form1()
         {
